@@ -1,5 +1,5 @@
 #Complexity Analysis : Time O(n) | Space O(1)
-def moveZeroes(array):
+def moveZeros(array):
     nonZeroIndex = 0
     
     for num in range(len(array)):
@@ -12,4 +12,4 @@ def moveZeroes(array):
     
     return array
     
-print(moveZeroes([1, 10, 0, 2, 8, 3, 0, 0, 6, 4, 0, 5, 7, 0]))
+print(moveZeros([1, 10, 0, 2, 8, 3, 0, 0, 6, 4, 0, 5, 7, 0]))
